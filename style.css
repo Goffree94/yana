@@ -13,7 +13,35 @@ h1 {
     letter-spacing: 3px;
 }
 
+#anh1 {
+    animation: 6s linear 0s infinite running yan;
+    animation-iteration-count: infinite;
+
+}
+
 @keyframes yan {
-    from{transform: scale(1, 1);}
-    to{transform: scale (1.5, 1.5);}
+    0% {transform: scale(1, 1);}
+    50% {transform: scale(1.2, 1.2);}
+    100% {transform: scale(1, 1);}
+}
+
+#box {
+    font-family: "Coolvetica";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    border: solid 20px white;
+    border-radius: 5%;
+    width: 750px;
+    margin: auto;
+padding: 10px;
+}
+
+#textr {
+    font-family: "Coolvetica";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 3px;
 }
