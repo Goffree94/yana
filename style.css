@@ -13,12 +13,6 @@ h1 {
     letter-spacing: 3px;
 }
 
-#anh1 {
-    animation: 6s linear 0s infinite running yan;
-    animation-iteration-count: infinite;
-
-}
-
 @keyframes yan {
     0% {transform: scale(1, 1);}
     50% {transform: scale(1.2, 1.2);}
